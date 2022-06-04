@@ -46,7 +46,7 @@
                   <Button fx:id="primaryButton111111" onAction="#switchToABMConvenios" prefHeight="59.0" prefWidth="120.0" text="Convenios" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
                   <Button fx:id="primaryButton1111111" onAction="#switchToABMMecanicos" prefHeight="59.0" prefWidth="120.0" text="Mecánicos" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
                   <Button fx:id="primaryButton11111111" onAction="#switchToABMAgenda" prefHeight="59.0" prefWidth="120.0" text="Agenda" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
-                  <Button fx:id="primaryButton111111111" onAction="#switchToPrimary" prefHeight="59.0" prefWidth="120.0" text="Reportes" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+                  <Button fx:id="primaryButton111111111" onAction="#switchToReportes" prefHeight="59.0" prefWidth="120.0" text="Reportes" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
                </children>
             </GridPane>
             <GridPane>

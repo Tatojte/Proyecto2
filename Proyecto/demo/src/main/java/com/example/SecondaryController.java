@@ -37,4 +37,8 @@ public class SecondaryController {
     private void switchToABMFicha() throws IOException {
         App.setRoot("abmficha");
     }
+    @FXML
+    private void switchToReportes() throws IOException {
+        App.setRoot("reportes");
+    }
 }

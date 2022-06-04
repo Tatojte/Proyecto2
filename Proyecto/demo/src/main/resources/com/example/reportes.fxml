@@ -10,11 +10,11 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.geometry.Insets?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.SecondaryController">
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ReportesController">
     <children>
       <VBox alignment="CENTER" prefHeight="444.0" prefWidth="555.0" spacing="20.0">
          <children>
-            <Label text="Menú Principal">
+            <Label text="Menú de Reportes">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
@@ -39,20 +39,17 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Button fx:id="primaryButton11" onAction="#switchToABMClientes" prefHeight="59.0" prefWidth="120.0" text="Clientes" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
-                  <Button fx:id="primaryButton111" onAction="#switchToABMAutos" prefHeight="59.0" prefWidth="120.0" text="Automóviles" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
-                  <Button fx:id="primaryButton1111" onAction="#switchToABMTurnos" prefHeight="59.0" prefWidth="120.0" text="Turnos" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
-                  <Button fx:id="primaryButton11111" onAction="#switchToABMFicha" prefHeight="59.0" prefWidth="120.0" text="Ficha Mecánica" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
-                  <Button fx:id="primaryButton111111" onAction="#switchToABMConvenios" prefHeight="59.0" prefWidth="120.0" text="Convenios" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
-                  <Button fx:id="primaryButton1111111" onAction="#switchToABMMecanicos" prefHeight="59.0" prefWidth="120.0" text="Mecánicos" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
-                  <Button fx:id="primaryButton11111111" onAction="#switchToABMAgenda" prefHeight="59.0" prefWidth="120.0" text="Agenda" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
-                  <Button fx:id="primaryButton111111111" onAction="#switchToReportes" prefHeight="59.0" prefWidth="120.0" text="Reportes" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+                  <Button fx:id="primaryButton11" onAction="#switchToHacereportes" prefHeight="59.0" prefWidth="120.0" text="De Clientes" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                  <Button fx:id="primaryButton111" onAction="#switchToHacereportes" prefHeight="59.0" prefWidth="120.0" text="De Automóviles" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+                  <Button fx:id="primaryButton1111" onAction="#switchToHacereportes" prefHeight="59.0" prefWidth="120.0" text="De Turnos" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+                  <Button fx:id="primaryButton11111" onAction="#switchToHacereportes" prefHeight="59.0" prefWidth="120.0" text="Informe p/Seguros" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+                  <Button fx:id="primaryButton111111" onAction="#switchToHacereportes" prefHeight="59.0" prefWidth="120.0" text="De Convenios" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                  <Button fx:id="primaryButton1111111" onAction="#switchToHacereportes" prefHeight="59.0" prefWidth="120.0" text="De Mecánicos" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+                  <Button fx:id="primaryButton11111111" onAction="#switchToHacereportes" prefHeight="59.0" prefWidth="120.0" text="De Servicios" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+                  <Button fx:id="primaryButton111111111" onAction="#switchToSecondary" prefHeight="59.0" prefWidth="120.0" text="Volver" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
                </children>
             </GridPane>
             <GridPane>
-               <children>
-                  <Button fx:id="primaryButton1" onAction="#switchToPrimary" text="Salir" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
-               </children>
                <columnConstraints>
                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />

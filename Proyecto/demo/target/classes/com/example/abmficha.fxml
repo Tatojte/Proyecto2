@@ -84,6 +84,35 @@
                </children>
             </GridPane>
             <GridPane>
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="157.0" minWidth="10.0" prefWidth="143.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="123.0" minWidth="0.0" prefWidth="39.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="227.0" minWidth="10.0" prefWidth="46.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="311.0" minWidth="10.0" prefWidth="284.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="Cliente da conformidad?" />
+                  <CheckBox mnemonicParsing="false" text="Si" GridPane.columnIndex="1" />
+                  <CheckBox mnemonicParsing="false" text="No" GridPane.columnIndex="2" />
+               </children>
+            </GridPane>
+            <GridPane>
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="253.0" minWidth="10.0" prefWidth="89.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="437.0" minWidth="10.0" prefWidth="426.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label prefHeight="50.0" prefWidth="86.0" text="observaciones" />
+                  <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" />
+               </children>
+            </GridPane>
+            <GridPane>
                <children>
                   <Button fx:id="primaryButton11" onAction="#switchToSecondary" prefHeight="59.0" prefWidth="120.0" text="Guardar" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
                   <Button fx:id="primaryButton1111111" onAction="#switchToSecondary" prefHeight="59.0" prefWidth="120.0" text="Volver" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" />

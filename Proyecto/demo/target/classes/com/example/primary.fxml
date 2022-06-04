@@ -60,8 +60,8 @@
          </rowConstraints>
          <children>
             <Button fx:id="primaryButton" onAction="#switchToSecondary" text="Ingresar" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
-            <Button fx:id="primaryButton11" text="Olvide mi contraseña" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
-            <Button fx:id="primaryButton1" text="Crear Usuario" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+            <Button fx:id="primaryButton11" onAction="#switchToOlvide" text="Olvide mi contraseña" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+            <Button fx:id="primaryButton1" onAction="#switchToCrearusu" text="Crear Usuario" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
          </children>
       </GridPane>
    </children>
