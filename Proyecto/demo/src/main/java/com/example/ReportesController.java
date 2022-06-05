@@ -11,6 +11,6 @@ public class ReportesController {
     }
     @FXML
     private void switchToHacereportes() throws IOException {
-        App.setRoot("emitereporte");
+        App.setRoot("hacerreportes");
     }
 }

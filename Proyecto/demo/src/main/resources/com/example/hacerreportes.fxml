@@ -31,7 +31,7 @@
          <children>
             <Button fx:id="primaryButton" onAction="#switchToHacerreportes" text="Pantalla" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
             <Button fx:id="primaryButton1" onAction="#switchToHacerreportes" text="Impreso" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
-            <Button fx:id="primaryButton11" onAction="#switchToHacerreportes" text="Volver" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+            <Button fx:id="primaryButton11" onAction="#switchToSecondary" text="Volver" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
          </children>
       </GridPane>
    </children>
